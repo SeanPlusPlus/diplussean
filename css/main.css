@@ -10,6 +10,10 @@ nav {
   background-color: #fff;
 }
 
+.nav > li {
+  margin-bottom: -1px;
+}
+
 #logo > img {
   height: 40px;
 }
