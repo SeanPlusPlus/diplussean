@@ -278,3 +278,7 @@ i.scroll:hover {
 img.reg {
   width: 100%;
 }
+
+.reg-item:hover {
+  opacity: 0.7;
+}
