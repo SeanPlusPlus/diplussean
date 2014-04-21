@@ -127,7 +127,7 @@ nav {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/banner_with_bg_02.png) no-repeat center center fixed;
+  background: url(../img/banner_final.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,7 +196,8 @@ i.service-icon {
 
 
 #Registry {
-  background-color: #FF851B;
+  background-color: #DDD;
+  color: #001F3F;
 }
 
 /* Portfolio */
@@ -270,4 +271,10 @@ i.scroll:hover {
 	height: 75%;
   }
 
+}
+.featurette-divider {
+  margin-top: 70px;
+}
+img.reg {
+  width: 100%;
 }
