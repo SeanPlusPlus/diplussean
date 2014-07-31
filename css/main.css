@@ -143,9 +143,9 @@ nav {
 /* Services */
 
 .services {
-  background: #3D9970;
+  background: #DDD;
   padding: 50px 0;
-  color: #ffffff;
+  color: #111;
 }
 
 .service-item {
@@ -153,7 +153,7 @@ nav {
 }
 
 .service-item > p > a {
-  color: #FFF;
+  color: #428bca;
 }
 
 i.service-icon {
@@ -281,4 +281,12 @@ img.reg {
 
 .reg-item:hover {
   opacity: 0.7;
+}
+
+.lead > a {
+  color: #428bca;
+}
+
+#hotel > a:hover {
+  opacity: 0.8;
 }
