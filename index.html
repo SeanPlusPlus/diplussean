@@ -357,7 +357,21 @@
                     <img style="width:100%;" src="/img/suitandtie.jpg" />
                     <br />
                     <br />
+                    <p class="lead">
+                      Ladies, bring your A-game. We trust you know what to do.
+                    </p>
+                    <br />
                     <hr />
+                    <p class="lead">
+                      <strong>
+                        Are children invited to the wedding?
+                      </strong>
+                    </p>
+                    <p class="lead">
+                      <i>
+                        We love your children! However, other than the children who have a role in the ceremony, the celebration will be a party for adults only. BUT WE SERIOUSLY DO LOVE THEM.
+                      </i>
+                    </p>
                 </div>
             </div>
         </div>
@@ -425,12 +439,18 @@
     <!-- hello world -->
     <script>
       $(document).ready(function() {
-        if (window.location.hash === "#Accomodations") {
-          scrollToElement( $('#Accomodations') );
+
+        var arr = ["#Accomodations", "#FAQs"];
+
+        for (var i = 0, j = arr.length; i < j; i++) {
+          if (window.location.hash === "arr[i]") {
+            scrollToElement( $('arr[i]') );
+          }
+          function scrollToElement(ele) {
+            $(window).scrollTop(ele.offset().top).scrollLeft(ele.offset().left);
+          }
         }
-        function scrollToElement(ele) {
-          $(window).scrollTop(ele.offset().top).scrollLeft(ele.offset().left);
-        }
+
       });
     </script>
 
