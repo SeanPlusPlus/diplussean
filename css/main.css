@@ -287,6 +287,11 @@ img.reg {
   color: #428bca;
 }
 
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 #hotel > a:hover {
   opacity: 0.8;
 }
