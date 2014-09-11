@@ -56,6 +56,9 @@
                     <li class="page-scroll">
                         <a href="#FAQs">FAQs</a>
                     </li>
+                    <li class="page-scroll">
+                        <a href="#Travel">Travel</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -76,7 +79,6 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Wedding Info</h2>
-                    <hr />
                     <p class="lead"><a target="_blank" href="http://www.californiaclub.org/html/">The California Club</a>
                     <br/ >538 S Flower St, Los Angeles, CA 90071
                     <br/ >November 8th, 2014
@@ -92,13 +94,12 @@
     <div id="Accomodations" class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
+                <div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Accomodations</h2>
-                    <hr>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
+                <div class="col-md-6 col-md-offset-3 text-center">
                     <div class="service-item">
                         <p class="lead">
                           <a href="http://www.millenniumhotels.com/usa/millenniumbiltmorelosangeles/" target="_blank">
@@ -106,8 +107,10 @@
                           </a>
                         </p>
                         <p>
-                          We have acquired a hotel room block at the Millennium Biltmore Hotel in
-                          Downtown Los Angeles. It is conveniently located one block from the wedding venue.
+                          We have acquired a hotel room block at the<br />Millennium Biltmore Hotel in
+                          Downtown Los Angeles.
+                        <br />
+                          It is conveniently located one block from the wedding venue.
                         </p>
                         <p>~</p>
                         <p>
@@ -123,8 +126,9 @@
                          Our reservations are under "Won / Stephenson".
                         </p>
                         <p>~</p>
-                        <a href="http://goo.gl/maps/BmMLj" target="_blank">
-                          <img class="featurette-image img-responsive" src="/img/hotel_venue.png">
+                        <a href="http://goo.gl/maps/BmMLj" target="_blank" class="pull-center">
+                          <img class="featurette-image img-responsive" src="/img/hotel_venue.png"
+                          style="width:100%;">
                         </a>
                     </div>
                 </div>
@@ -300,7 +304,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
-                    <h1>Registry</h1>
+                    <h2>Registry</h2>
                     <br />
                     <br />
                 </div>
@@ -379,6 +383,22 @@
     </div>
     <!-- /Intro -->
 
+    <!-- Intro -->
+    <div id="Travel" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Travel</h2>
+                    <hr />
+                    <p class="lead"><strong>
+                        To our friends flying in (thank you for flying in!), you can either fly into LAX or Burbank Airport (BUR). If you're wondering what airport to fly into, behold ... a Pros & Cons List
+                    </strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+
 
     <!-- Footer -->
     <footer>
@@ -441,7 +461,7 @@
     <script>
       $(document).ready(function() {
 
-        var arr = ["#Wedding", "#Accomodations", "#Story", "#Party", "#Registry", "#FAQs"];
+        var arr = ["#Wedding", "#Accomodations", "#Story", "#Party", "#Registry", "#FAQs", "#Travel"];
 
         for (var i = 0, j = arr.length; i < j; i++) {
           if (window.location.hash === "arr[i]") {

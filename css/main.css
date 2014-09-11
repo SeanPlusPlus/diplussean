@@ -290,3 +290,17 @@ img.reg {
 #hotel > a:hover {
   opacity: 0.8;
 }
+
+#Travel, #Wedding {
+  background-color: whiteSmoke;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: palatino;
+}
+
+.vert-text h1 {
+  font-size: 70px;
+  font-family: palatino;
+}
