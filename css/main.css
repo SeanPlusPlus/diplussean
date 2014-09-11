@@ -295,21 +295,27 @@ img.reg {
   background-color: whiteSmoke;
 }
 
+@font-face {
+  font-family: Lavanderia;
+  src: url("/css/Lavanderia.otf") format("opentype");
+}
+
+body {
+  font-family: Roboto;
+}
+
 h2 {
-  font-size: 60px;
-  font-family: Arvo;
+  font-size: 80px;
+  font-family: Lavanderia;
   margin-bottom: 45px;
 }
 
 .vert-text h1 {
-  font-size: 70px;
-  font-family: Arvo;
-}
-
-p.lead-travel {
-  font-size: 18px;
+  font-size: 80px;
+  font-family: Lavanderia;
 }
 
 .proscons {
   text-align: left;
+  font-size:18px;
 }
