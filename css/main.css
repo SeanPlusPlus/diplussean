@@ -297,12 +297,13 @@ img.reg {
 
 h2 {
   font-size: 60px;
-  font-family: palatino;
+  font-family: Arvo;
+  margin-bottom: 45px;
 }
 
 .vert-text h1 {
   font-size: 70px;
-  font-family: palatino;
+  font-family: Arvo;
 }
 
 p.lead-travel {
