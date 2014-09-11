@@ -304,3 +304,7 @@ h2 {
   font-size: 70px;
   font-family: palatino;
 }
+
+p.lead-travel {
+  font-size: 18px;
+}
